@@ -1,0 +1,4 @@
+INFO     api_auto:request_handler.py:19 请求: POST https://test-admin.allreaday.com/api/account/login, 参数: {'json': {'username': 'mengbo.li@rela.me', 'password': 'relaA@2024'}, 'timeout': 100}
+INFO     api_auto:request_handler.py:23 响应: 状态码 200, 内容: {"code":200,"msg":"成功","data":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhbGxyZWFkYXkiLCJleHAiOjE3NjQ3Mjc2MDcsImlhdCI6MTc2NDY0MTIwNywiYWRtaW5faWQiOjcsImVtYWlsIjoibWVuZ2JvLmxpQHJlbGEubWUiLCJ1cGRhdGVfYXQiOiIyMDI1LTEyLTAyVDEwOjA2OjQ3LjI3ODI5OTI0NCswODowMCJ9.Kntm6GatbUgUCMxyxpMu3oJKa8sqWppB_bhlltXyGXE","access":[]}}
+INFO     api_auto:assert_handler.py:10 状态码断言通过
+INFO     api_auto:assert_handler.py:22 字段 token 在data中存在，断言通过

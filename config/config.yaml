@@ -1,0 +1,19 @@
+# config/config.yaml
+pro_web:
+  base_url: "https://admin.allreaday.com"
+  timeout: 10
+pre_web:
+  base_url: "http://pre-admin.allreaday.com"
+  timeout: 10
+test_web:
+  base_url: "https://test-admin.allreaday.com"
+  timeout: 10
+pro_miniapp:
+  base_url: "http://pro-api.allreaday.com"
+  timeout: 10
+pre_miniapp:
+  base_url: "http://pre-api.allreaday.com"
+  timeout: 10
+test_miniapp:
+  base_url: "http://test-api.allreaday.com"
+  timeout: 10

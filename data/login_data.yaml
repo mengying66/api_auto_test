@@ -1,0 +1,12 @@
+# data/login_data.yaml
+- case_name: 正常登录
+  username: "mengbo.li@rela.me"
+  password: "relaA@2024"
+  expected_code: 200
+  expected_token: not_null  # 预期token非空
+
+- case_name: 密码错误
+  username: "mengbo.li@rela.me"
+  password: "wrong_pwd"
+  expected_code: 200
+  expected_msg: "密码错误"

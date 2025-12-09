@@ -1,0 +1,4 @@
+INFO     api_auto:request_handler.py:19 请求: POST https://test-admin.allreaday.com/api/account/login, 参数: {'json': {'username': 'mengbo.li@rela.me', 'password': 'wrong_pwd'}, 'timeout': 100}
+INFO     api_auto:request_handler.py:23 响应: 状态码 200, 内容: {"code":500,"msg":"密码错误","data":null}
+INFO     api_auto:assert_handler.py:10 状态码断言通过
+INFO     api_auto:assert_handler.py:31 字段 msg 值断言通过
