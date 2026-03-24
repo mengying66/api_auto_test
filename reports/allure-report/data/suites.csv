@@ -1,5 +1,5 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
 "","117","test_login[case1]","testcases","2025-12-02","passed","2025-12-02","TestLogin","test_login","",""
-"登录接口测试（Excel驱动）","724","[1] 正确账号密码登录","testcases","2025-12-03","passed","2025-12-03","TestLoginWithExcel","test_login_excel","",""
+"登录接口测试（Excel驱动）","292","[2] 错误密码登录","testcases","2026-03-23","passed","2026-03-23","TestLoginWithExcel","test_login_excel","",""
+"登录接口测试（Excel驱动）","316","[1] 正确账号密码登录","testcases","2026-03-23","passed","2026-03-23","TestLoginWithExcel","test_login_excel","",""
 "","528","test_login[case0]","testcases","2025-12-02","passed","2025-12-02","TestLogin","test_login","",""
-"登录接口测试（Excel驱动）","1028","[2] 错误密码登录","testcases","2025-12-03","passed","2025-12-03","TestLoginWithExcel","test_login_excel","",""
